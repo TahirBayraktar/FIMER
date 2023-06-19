@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A58DD472A0522AE001E61ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58DD462A0522AE001E61ED /* AppDelegate.swift */; };
+		4A58DD492A0522AE001E61ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58DD482A0522AE001E61ED /* SceneDelegate.swift */; };
+		4A58DD4B2A0522AE001E61ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A58DD4A2A0522AE001E61ED /* ViewController.swift */; };
+		4A58DD4E2A0522AE001E61ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A58DD4C2A0522AE001E61ED /* Main.storyboard */; };
+		4A58DD502A0522B0001E61ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A58DD4F2A0522B0001E61ED /* Assets.xcassets */; };
+		4A58DD532A0522B0001E61ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A58DD512A0522B0001E61ED /* LaunchScreen.storyboard */; };
+		4AC6B32D2A30AD7800EF9E5B /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6B32C2A30AD7800EF9E5B /* RequestViewController.swift */; };
+		4AC6B3522A311D5B00EF9E5B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC6B3512A311D5B00EF9E5B /* ChatViewController.swift */; };
+		4AFA28EF2A20E7C600D08254 /* SignUpVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA28EE2A20E7C600D08254 /* SignUpVController.swift */; };
+		4AFA28F12A20E9C100D08254 /* JobFloatingPanelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA28F02A20E9C100D08254 /* JobFloatingPanelVC.swift */; };
+		4AFA28F42A20EAB500D08254 /* JobPanelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA28F32A20EAB500D08254 /* JobPanelTableViewCell.swift */; };
+		4AFA29182A26565C00D08254 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AFA29172A26565C00D08254 /* GoogleService-Info.plist */; };
+		4AFA291A2A27730C00D08254 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA29192A27730C00D08254 /* HomePageViewController.swift */; };
+		4AFA291C2A27736A00D08254 /* HomePageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA291B2A27736A00D08254 /* HomePageTableViewCell.swift */; };
+		AE23F26159C3758DD479FD45 /* Pods_Fimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 066C0D5174CE950B228DCD18 /* Pods_Fimer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005FB40C0D876C84DBA59954 /* Pods-Fimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fimer.debug.xcconfig"; path = "Target Support Files/Pods-Fimer/Pods-Fimer.debug.xcconfig"; sourceTree = "<group>"; };
+		066C0D5174CE950B228DCD18 /* Pods_Fimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A58DD432A0522AE001E61ED /* Fimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A58DD462A0522AE001E61ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A58DD482A0522AE001E61ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A58DD4A2A0522AE001E61ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A58DD4D2A0522AE001E61ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A58DD4F2A0522B0001E61ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A58DD522A0522B0001E61ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A58DD542A0522B0001E61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC6B32C2A30AD7800EF9E5B /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		4AC6B3512A311D5B00EF9E5B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4AFA28EE2A20E7C600D08254 /* SignUpVController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVController.swift; sourceTree = "<group>"; };
+		4AFA28F02A20E9C100D08254 /* JobFloatingPanelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobFloatingPanelVC.swift; sourceTree = "<group>"; };
+		4AFA28F32A20EAB500D08254 /* JobPanelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPanelTableViewCell.swift; sourceTree = "<group>"; };
+		4AFA29172A26565C00D08254 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4AFA29192A27730C00D08254 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		4AFA291B2A27736A00D08254 /* HomePageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTableViewCell.swift; sourceTree = "<group>"; };
+		9C8228B7CE353599F1E495A1 /* Pods-Fimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fimer.release.xcconfig"; path = "Target Support Files/Pods-Fimer/Pods-Fimer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A58DD402A0522AE001E61ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE23F26159C3758DD479FD45 /* Pods_Fimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A58DD3A2A0522AE001E61ED = {
+			isa = PBXGroup;
+			children = (
+				4A58DD452A0522AE001E61ED /* Fimer */,
+				4A58DD442A0522AE001E61ED /* Products */,
+				C0BDE5842EDE3A2872EA1217 /* Pods */,
+				94FA88C1675E43EB6A253A44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A58DD442A0522AE001E61ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A58DD432A0522AE001E61ED /* Fimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A58DD452A0522AE001E61ED /* Fimer */ = {
+			isa = PBXGroup;
+			children = (
+				4A58DD462A0522AE001E61ED /* AppDelegate.swift */,
+				4A58DD482A0522AE001E61ED /* SceneDelegate.swift */,
+				4A58DD4A2A0522AE001E61ED /* ViewController.swift */,
+				4A58DD4C2A0522AE001E61ED /* Main.storyboard */,
+				4A58DD4F2A0522B0001E61ED /* Assets.xcassets */,
+				4A58DD512A0522B0001E61ED /* LaunchScreen.storyboard */,
+				4A58DD542A0522B0001E61ED /* Info.plist */,
+				4AFA29172A26565C00D08254 /* GoogleService-Info.plist */,
+				4AFA28F22A20E9D300D08254 /* SignUp */,
+				4AFA291D2A27737200D08254 /* HomePage */,
+				4AC6B32C2A30AD7800EF9E5B /* RequestViewController.swift */,
+				4AC6B3512A311D5B00EF9E5B /* ChatViewController.swift */,
+			);
+			path = Fimer;
+			sourceTree = "<group>";
+		};
+		4AFA28F22A20E9D300D08254 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				4AFA28EE2A20E7C600D08254 /* SignUpVController.swift */,
+				4AFA28F02A20E9C100D08254 /* JobFloatingPanelVC.swift */,
+				4AFA28F32A20EAB500D08254 /* JobPanelTableViewCell.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		4AFA291D2A27737200D08254 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				4AFA29192A27730C00D08254 /* HomePageViewController.swift */,
+				4AFA291B2A27736A00D08254 /* HomePageTableViewCell.swift */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		94FA88C1675E43EB6A253A44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				066C0D5174CE950B228DCD18 /* Pods_Fimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0BDE5842EDE3A2872EA1217 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005FB40C0D876C84DBA59954 /* Pods-Fimer.debug.xcconfig */,
+				9C8228B7CE353599F1E495A1 /* Pods-Fimer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A58DD422A0522AE001E61ED /* Fimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A58DD572A0522B0001E61ED /* Build configuration list for PBXNativeTarget "Fimer" */;
+			buildPhases = (
+				C946307665174643E3B3CE57 /* [CP] Check Pods Manifest.lock */,
+				4A58DD3F2A0522AE001E61ED /* Sources */,
+				4A58DD402A0522AE001E61ED /* Frameworks */,
+				4A58DD412A0522AE001E61ED /* Resources */,
+				B7C2CC342D145B595C7D1BE7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fimer;
+			productName = Fimer;
+			productReference = 4A58DD432A0522AE001E61ED /* Fimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A58DD3B2A0522AE001E61ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4A58DD422A0522AE001E61ED = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 4A58DD3E2A0522AE001E61ED /* Build configuration list for PBXProject "Fimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A58DD3A2A0522AE001E61ED;
+			productRefGroup = 4A58DD442A0522AE001E61ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A58DD422A0522AE001E61ED /* Fimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A58DD412A0522AE001E61ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A58DD532A0522B0001E61ED /* LaunchScreen.storyboard in Resources */,
+				4AFA29182A26565C00D08254 /* GoogleService-Info.plist in Resources */,
+				4A58DD502A0522B0001E61ED /* Assets.xcassets in Resources */,
+				4A58DD4E2A0522AE001E61ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7C2CC342D145B595C7D1BE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fimer/Pods-Fimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fimer/Pods-Fimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fimer/Pods-Fimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C946307665174643E3B3CE57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A58DD3F2A0522AE001E61ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A58DD4B2A0522AE001E61ED /* ViewController.swift in Sources */,
+				4AFA291A2A27730C00D08254 /* HomePageViewController.swift in Sources */,
+				4A58DD472A0522AE001E61ED /* AppDelegate.swift in Sources */,
+				4AFA28F12A20E9C100D08254 /* JobFloatingPanelVC.swift in Sources */,
+				4AFA28EF2A20E7C600D08254 /* SignUpVController.swift in Sources */,
+				4AC6B32D2A30AD7800EF9E5B /* RequestViewController.swift in Sources */,
+				4AFA28F42A20EAB500D08254 /* JobPanelTableViewCell.swift in Sources */,
+				4A58DD492A0522AE001E61ED /* SceneDelegate.swift in Sources */,
+				4AC6B3522A311D5B00EF9E5B /* ChatViewController.swift in Sources */,
+				4AFA291C2A27736A00D08254 /* HomePageTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A58DD4C2A0522AE001E61ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A58DD4D2A0522AE001E61ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A58DD512A0522B0001E61ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A58DD522A0522B0001E61ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A58DD552A0522B0001E61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A58DD562A0522B0001E61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A58DD582A0522B0001E61ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005FB40C0D876C84DBA59954 /* Pods-Fimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSDTBS7HSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fimer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahirbayraktar.Fimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A58DD592A0522B0001E61ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8228B7CE353599F1E495A1 /* Pods-Fimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSDTBS7HSD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fimer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahirbayraktar.Fimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A58DD3E2A0522AE001E61ED /* Build configuration list for PBXProject "Fimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A58DD552A0522B0001E61ED /* Debug */,
+				4A58DD562A0522B0001E61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A58DD572A0522B0001E61ED /* Build configuration list for PBXNativeTarget "Fimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A58DD582A0522B0001E61ED /* Debug */,
+				4A58DD592A0522B0001E61ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A58DD3B2A0522AE001E61ED /* Project object */;
+}
