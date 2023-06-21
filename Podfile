@@ -9,7 +9,10 @@ target 'Fimer' do
 pod 'FloatingPanel'
 pod 'FirebaseAuth'
 pod 'FirebaseAnalytics'
+pod 'FirebaseFirestore'
 
-pod 'MessageKit'
+
+
+
 
 end

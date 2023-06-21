@@ -7,23 +7,33 @@
 
 import UIKit
 
-class RequestViewController: UIViewController {
+class RequestViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
+    
 
+    @IBOutlet weak var reportTableView: UITableView!
+    var chat = ["Şikayet ve Önerim 1"]
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        reportTableView.delegate = self
+        reportTableView.dataSource = self
         // Do any additional setup after loading the view.
     }
     
-//ashkjdhasdhsıal
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return chat.count
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        var content = cell.defaultContentConfiguration()
+        content.text = chat[indexPath.row]
+        cell.contentConfiguration = content
+        return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "toChatVC", sender: nil)
+    }
+    
 
 }
+
